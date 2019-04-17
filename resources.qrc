@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/tiles">
+        <file>Goal.png</file>
+        <file>MovableOnGoal.png</file>
+        <file>Movable.png</file>
+        <file>Wall.png</file>
+        <file>Player.png</file>
+    </qresource>
+</RCC>
