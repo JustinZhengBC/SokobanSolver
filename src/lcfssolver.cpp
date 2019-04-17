@@ -2,7 +2,6 @@
 #include "levelformat.h"
 
 #include <queue>
-#include <QtDebug>
 
 LCFSSolver::LCFSSolver(LevelFormat *format):
     AbstractSolver (format)

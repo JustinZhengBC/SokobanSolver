@@ -2,7 +2,6 @@
 #include "levelformat.h"
 
 #include <QStack>
-#include <QtDebug>
 
 DFSSolver::DFSSolver(LevelFormat *format):
     AbstractSolver (format)

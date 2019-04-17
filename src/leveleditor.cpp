@@ -5,7 +5,6 @@
 #include <QGraphicsSceneMouseEvent>
 #include <QHoverEvent>
 #include <QPen>
-#include <QtDebug>
 #include <QtMath>
 
 LevelEditor::LevelEditor(int iconLength, int windowLength, QObject *parent):
@@ -19,7 +18,6 @@ LevelEditor::LevelEditor(int iconLength, int windowLength, QObject *parent):
     setSceneRect(0, 0, iconLength * windowLength, iconLength * windowLength);
     setBackgroundBrush(Qt::black);
     playerImg = new QPixmap(":/tiles/Player.png");
-    playerImg->save("/Users/admin/desktop/Player.png");
     wallImg = new QPixmap(":/tiles/Wall.png");
     movableImg = new QPixmap(":/tiles/Movable.png");
     movableOnGoalImg = new QPixmap(":/tiles/MovableOnGoal.png");
